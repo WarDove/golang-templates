@@ -20,7 +20,7 @@ func main() {
 	// Flush buffered events before the program terminates.
 	defer sentry.Flush(2 * time.Second)
 
-	sentry.CaptureMessage("main.go   i am an error :) and i am storing very useful information full of passwords and stuff, catch me if you can")
+	sentry.CaptureMessage("Eziz xanımlar, Bayramınız mübarek! Size beraberlik, azadlıq ve xoşbextliklerle dolu bir heyat arzulayırıq")
 	fmt.Println("how ya doin? :P")
 
 }
